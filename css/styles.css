@@ -1,17 +1,35 @@
 * {
   text-align: center;
-  background-color: #ffc3d5;
-  font-family: arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: fantasy;
+ 
 }
 
 h1 {
-  
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
 }
 
 #intro {
   font-style: italic;
+  border-style: double;
+  padding: 12px;
 }
 
 img {
   border-radius: 40%;
+}
+
+a:hover {
+    cursor: crosshair;
+}
+
+body {
+    background-image: url("../img/background.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+
 }
