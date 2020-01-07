@@ -9,8 +9,9 @@ h1 {
 }
 
 #intro {
-  
   font-style: italic;
-  
+}
 
+img {
+  border-radius: 40%;
 }
